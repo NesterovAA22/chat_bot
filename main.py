@@ -1,6 +1,5 @@
 import logging
-# изменения файла после комита
-# и еще один комит
+# возвращаю обратно 
 try:
     import settings
 except ImportError:

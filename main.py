@@ -1,5 +1,5 @@
 import logging
-# возвращаю обратно 
+
 try:
     import settings
 except ImportError:
@@ -24,8 +24,6 @@ import random
 import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 
-#пушим насервер
-#второй залив
 
 class Bot:
     """
